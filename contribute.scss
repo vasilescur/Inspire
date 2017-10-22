@@ -1,0 +1,226 @@
+/* Scss Document */
+
+/* Imports and fonts */
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Raleway');
+
+/* Color Pallette */
+
+$darkest: #112434;
+$dark: #154455;
+$teal: #27919D;
+$cream: #D2D0AF;
+$orange: #DCAA86;
+
+html, body {
+  background: $dark;
+}
+
+.align-left {
+  float: left;
+}
+
+.align-right {
+  float: right;
+}
+
+form {
+  text-align: left; 
+  padding-left: 30%;
+}
+
+input[type=text] {
+  width: 55%;
+  padding: 12px 20px;
+  border-radius: 10px;
+  box-shadow: none;
+  text-shadow: none;
+  border: $orange solid 1px; 
+  margin-bottom: 10px;
+  
+  font-family: 'Raleway';
+  font-size: 18px;
+    
+  background-color: #FFF7D6;
+}
+
+input[type=text]:focus {
+  border-color: black;
+}
+
+input[type=submit] {
+  padding: 12px 20px;
+  border-radius: 10px;
+  box-shadow: none;
+  text-shadow: none;
+  border: $orange solid 1px; 
+  margin-bottom: 10px;
+  
+  display: block;
+  
+  font-family: 'Raleway';
+  font-size: 18px;
+  background-color: #FFF7D6;
+}
+
+textarea {
+  width: 55%;
+  padding: 12px 20px;
+  border-radius: 10px;
+  box-shadow: none;
+  text-shadow: none;
+  border: $orange solid 1px;
+  
+  font-family: 'Raleway';
+  font-size: 18px;
+  
+  margin-bottom: 10px;
+  background-color: #FFF7D6;
+}
+
+textarea:focus {
+  border-color: black;
+}
+
+input[name=ideatitle] {
+  font-weight: bold;
+}
+
+select {
+  width: 120px;
+  padding: 8px 5px;
+  border-radius: 10px;
+  box-shadow: none;
+  text-shadow: none;
+  border: $orange solid 1px;
+  
+  font-family: 'Raleway';
+  font-size: 18px;
+  
+  margin-bottom: 0px;
+  background-color: #FFF7D6;
+}
+
+h1 {
+  font-family: 'Raleway';
+  font-size: 18px;
+  color: #A6A6A6;
+  background-color: transparent;
+}
+
+.main-title {
+  font-family: "Kaushan Script", cursive;
+  font-size: 80px;
+  margin: auto;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-top: 80px;
+  color: $cream;
+  
+  text-shadow: 4px 4px 0 black;
+}
+
+.form-container {
+  margin: auto;
+  text-align: center;
+  
+}
+
+
+/* -------------------------
+     CARDS
+   -------------------------  */
+
+
+.results-container {
+  margin: auto;
+  text-align: center;
+  
+  width: 55%;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px 3px #333;
+  text-align: left;
+  
+  background-color: $cream;
+  
+  padding: 18px 24px;
+  margin-bottom: 20px;
+  
+  opacity: 0;
+}
+
+/* Headings */
+.card h2 {
+  font-color: #222;
+  font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+  font-size: 18px;
+  display: inline;
+  font-weight: normal;
+}
+
+/* Idea titles */
+.card h3 {
+  font-color: black;
+  font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+  font-size: 18px;
+  display: inline;
+  font-weight: bold;
+}
+
+/* Card text content */
+.card p {
+  font-color: black;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  font-size: 18px;
+  display: inline;
+}
+
+
+
+/* ---------------------
+     Fade in
+   --------------------- */
+
+.fade-in {
+  animation-name: fade-in;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+  /* animaton-delay is set dynamically through PHP */
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

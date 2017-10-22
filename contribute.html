@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Inspire Others</title>
+  <link rel="stylesheet" href="contribute.css">
+  
+</head>
+
+<body> 
+  <div class="main-title">Contribute an Idea</div>
+  <div class="form-container">
+    <form action="submit.php" method="post" id="idea-submission">
+      <h1>Your name:</h1>
+      <input type="text" name="UserName" />
+      
+      <h1>Idea title:</h1>
+      <input type="text" name="IdeaTitle" />
+      
+      <h1>Idea description:</h1>
+      <textarea rows="15" name="Description"></textarea>
+      
+      <br/><br/>
+      
+      <div style="width: 58%;">
+        <div class="align-left">
+          <h1 style="float: left;">Pick a category: &nbsp;</h1>
+          <select name="Category">
+            <option value="Projects">Projects</option>
+            <option value="Activities">Activities</option>
+            <option value="Media">Media</option>
+          </select>
+        </div>
+
+        <div class="align-right">
+          <input type="submit" name="submit" value="Submit Idea"/>
+        </div>
+      </div>
+   
+    </form>
+    
+  </div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
